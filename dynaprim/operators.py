@@ -148,6 +148,7 @@ class DYNA_OT_Collapse(bpy.types.Operator):
             bpy.ops.object.editmode_toggle()
             bpy.ops.mesh.select_all(action='SELECT')    
             bpy.ops.mesh.remove_doubles()
+            bpy.ops.mesh.select_all(action='DESELECT')
             bpy.ops.object.editmode_toggle()
         del obj['DYNAPRIM_TYPE']
         return {'FINISHED'}
