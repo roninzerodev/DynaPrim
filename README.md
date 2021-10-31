@@ -1,5 +1,5 @@
 # Dynaprim
-This addon creates mesh primitives using geometry modifier.
+This addon creates mesh primitives using geometry node modifier.
 
 
 **Create Primitives**
