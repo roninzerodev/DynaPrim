@@ -8,7 +8,7 @@ This addon creates mesh primitives using geometry node modifier.
 
 **Access Properties**
 
-    N- side panel->DynaPrim to access properties. Alternatively, geometry node modiefier in the stack has properties too.
+    N- side panel->DynaPrim to access properties. Alternatively, geometry node modifier in the stack has properties too.
 
 **Convert to editable mesh**
 
