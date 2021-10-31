@@ -202,7 +202,7 @@ class DYNA_PT_Dynaprim(bpy.types.Panel):
                 op.mode=1
                 op2=layout.operator(DYNA_OT_Collapse.bl_idname,text='Collapse all Mods')
                 op2.mode=2
-                op3=layout.prop(self,'boolean')
+               
         
   
 def add_dynaprim_menu(self,context):
